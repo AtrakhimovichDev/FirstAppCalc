@@ -126,7 +126,6 @@ class ViewController: UIViewController {
         if calculator.getShowResult() {
             labelInputField.text! = calculator.getResult()
         }
-        print()
     }
     
     private func checkEqualsButtonPressed(buttonAction: ButtonsActions) {
